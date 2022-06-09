@@ -1,104 +1,58 @@
-@media(max-width:1666px){
-    .img-area img{
-        margin-left: 13px;
+@media (max-width:1000px) {
+    .logo {
+      width: 100%;
+      text-align: center;
     }
-}
-    
-
-@media(max-width:1024px){
-    .header-right ul li a {
-        padding: 0px 5px;
-        margin-left: 7px;
+    .menu {
+      width: 101%;
+      text-align: center;
     }
-    .header-right{
-        width: 100%;
+    .banner h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
     }
-    .header-right ul{
-        text-align: center;
+    .banner a {
+      font-size: 15px;
     }
-    .header-left{
-        margin-left: 41%;
+    .web {
+      width: 50% !important;
+      margin: 35px 0;
     }
-}
-@media(max-width:702px){
-    .service-item {
-        width: 50%;
+    .service-heading {
+      margin: 50px 0;
     }
-    .img-area img {
-        margin-top: 171px;
+    .aboutimg {
+      width: 100%;
     }
-}
-@media(max-width:500px){
-    .header-left a{
-        padding: 0 0px;
+    .aboutcontent {
+      width: 100%;
+      padding-left: 0;
+      margin:25px 0;
     }
-    
-    .sector-1{
-        width: 50%;
-        margin-left: 0;
+    .aboutimg {
+      width: 100%;
+      text-align: center;
     }
-    .sector-1{
-        width: 50%;
+  }
+  @media (max-width:700px) {
+    .web {
+      width: 100% !important;
     }
-    .sector-3{
-        width: 100%;
-        text-align: center;
-
+    .con-sec {
+      width: 100%;
+      margin: 15px 0;
     }
-    .members{
-        width: 100%;
+  }
+  @media (max-width:568px) {
+    .banner h1 {
+      font-size: 30px;
     }
-    .message{
-        width: 100%;
-        margin-right: -3%;
+    .banner p {
+      font-size: 14px;
+      margin-bottom: -10px;
     }
-    .message p{
-        font-size: 1rem;
+    .aboutcontent {
+      padding: 0 20px;
     }
-    .service-section{
-        width: 102%;
-    }
-    .message h2{
-        padding: 0 22px;
-    }
-    .message p{
-        padding: 0 22px;
-    }
-    .text p{
-        font-size: 13px;
-        padding: 0 10%;
-    }
-    .sector-1 {
-        width: 100%;
-    }
-    .sector-2 {
-        width: 100%;
-    }
-    .sector-3 {
-        margin-right: 0%;
-    }
-}
-@media(max-width:380px){
-    .header-right ul li a{
-        padding: 0px 3px;
-    }
-}
-@media(max-width:300px){
-    .header-right ul li a{
-        padding: 0px 10px;
-    }
-    .header-left a {
-        
-        line-height: 0;
-        margin-top: 25px;
-        margin-left: -38px;
-    }
-    .banner-text h1 {
-       
-        font-size: 41px;
-      
-    }
-    .banner {
-        padding: 92px 0px;
-    }
-}
+  }
+  
