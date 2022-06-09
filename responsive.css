@@ -1,0 +1,58 @@
+@media (max-width:1000px) {
+    .logo {
+      width: 100%;
+      text-align: center;
+    }
+    .menu {
+      width: 101%;
+      text-align: center;
+    }
+    .banner h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+    .banner a {
+      font-size: 15px;
+    }
+    .web {
+      width: 50% !important;
+      margin: 35px 0;
+    }
+    .service-heading {
+      margin: 50px 0;
+    }
+    .aboutimg {
+      width: 100%;
+    }
+    .aboutcontent {
+      width: 100%;
+      padding-left: 0;
+      margin:25px 0;
+    }
+    .aboutimg {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @media (max-width:700px) {
+    .web {
+      width: 100% !important;
+    }
+    .con-sec {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+  @media (max-width:568px) {
+    .banner h1 {
+      font-size: 30px;
+    }
+    .banner p {
+      font-size: 14px;
+      margin-bottom: -10px;
+    }
+    .aboutcontent {
+      padding: 0 20px;
+    }
+  }
+  
